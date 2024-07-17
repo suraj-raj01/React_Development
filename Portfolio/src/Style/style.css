@@ -1,0 +1,70 @@
+#navbar{
+    background-color: darkslategrey;
+}
+#navbar a{
+    color: whitesmoke;
+}
+#portfolio img{
+    height: 180px;
+    border-radius: 10px;
+    padding: 2px;
+}
+
+#form{
+   color: white;
+}
+#forgot{
+    margin-left: 275px;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    cursor: pointer;
+    text-decoration: underline;
+}
+#icon{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 15px;
+    font-size: 25px;
+    color: aliceblue;
+    cursor: pointer;
+}
+#contact{
+    background-color: darkslategrey;
+    height: 75vh;
+}
+#content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    justify-content: space-between;
+}
+#content #box1{
+    height: 20vh;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    padding: 5px 15px;
+}
+#content #box1 a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+    padding: 2px 0px;
+}
+#content #box1 a:hover{
+    text-decoration: underline;
+}
+#box2
+{
+    height: 40vh;
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 15px;
+    color: white;
+}

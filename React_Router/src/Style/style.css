@@ -1,0 +1,52 @@
+
+#navbar{
+    height: 10dvh;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+#navbar a{
+    margin-left: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+#outlet{
+    height: 75dvh;
+}
+#home{
+    margin-top: 5px;
+    height: 75dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+}
+#about{
+    margin-top: 5px;
+    height: 75dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkslategray;
+}
+#contact{
+    margin-top: 5px;
+    height: 75dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: teal;
+}
+
+#footer{
+    height: 10dvh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+}
