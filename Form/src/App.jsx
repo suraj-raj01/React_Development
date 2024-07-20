@@ -1,29 +1,30 @@
-
-const [color,setColor] = useState("green");
-
+import { useState } from "react";
+import axios from "axios";
 const App = () =>{
-  // const [cnt,setCnt] = useState(0);
-// const myDec = () =>{
-//   if(cnt<=0)
-//   {
-//     alert("No negative decreament")
-//   }
-//   else{
-//     setCnt(cnt-1);
-//   }
-// }
+
+const[input,setInput] = useState({});
+const handleInput=(e)=>{
+  let name = e.target.name;
+  let value = e.target.value;
+  setInput((values)=>({...values,[name]:value}));
+  alert(input);
+}
+handleSubmit = () =>{
+  let api = "http://localhost:3000/Student";
+  axios.post(api,input).then((res)=>{
+    console.lot(res);
+    alert("data saved");
+  })
+}
+
   return(
     <>
-    <h1 style={{color:color}}>My Favourite Color is : {color}</h1>
-    <button onClick={()=>{setColor("Green")}}>Green</button>
-    <button onClick={()=>{setColor("Red")}}>Red</button>
-    {/* <h2>Count : {cnt}</h2>
-    <button onClick={()=>{setCnt(cnt+1)}}>Increament</button>
-    <button onClick={(myDec)=>{setCnt(cnt-1)}}>Decreament</button>
-    <button onClick={()=>{setCnt(cnt+2)}}>Increament</button>
-    <button onClick={myDec}>Decreament</button> */}
+    Enter Rollno: <input type="text" name="rollno" value={input.rollno} onChange={handleInput}  />
+    Enter Name: <input type="text" name="name" value={input.name} onChange={handleInput}  />
+    Enter address: <input type="text" name="address" value={input.address} onChange={handleInput}  />
+    Enter fees: <input type="text" name="fees" value={input.fees} onChange={handleInput}  />
+    <button onClick={handleSubmit}>Submit Data</button>
     </>
   )
 }
 export default App;
-
