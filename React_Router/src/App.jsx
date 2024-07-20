@@ -4,6 +4,8 @@
 // import About from "./Components/About";
 // import Contact from "./Components/Contact";
 
+// import { useState } from "react";
+
 // function display(){
 //   alert("Welcome to Cybrom")
 // }
@@ -48,8 +50,7 @@
 // }
 // export default App;
 
-
-const { useState } = require("react")
+import { useState } from "react";
 // const [color,setColor] = useState("green");
 const [cnt,setCnt] = useState(0);
 const myDec = () =>{
