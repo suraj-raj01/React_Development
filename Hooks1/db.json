@@ -1,0 +1,25 @@
+{
+  "Student": [
+    {
+      "id": "1",
+      "rollno": 11,
+      "name": "sdfjsl",
+      "city": "Bhopal",
+      "fees": 25400
+    },
+    {
+      "id": "2",
+      "rollno": 12,
+      "name": "sdfjsl",
+      "city": "Bhopal",
+      "fees": 25400
+    },
+    {
+      "id": "3",
+      "rollno": 13,
+      "name": "sdfjsl",
+      "city": "Bhopal",
+      "fees": 25400
+    }
+  ]
+}
