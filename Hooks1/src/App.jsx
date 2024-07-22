@@ -5,6 +5,7 @@ import Insert from "./Components/Insert";
 import Search from "./Components/Search";
 import Modify from "./Components/Modify";
 import Container from "react-bootstrap/esm/Container";
+import Display from "./Components/Display";
 const App = () =>{
   return(
     <>
@@ -17,6 +18,7 @@ const App = () =>{
           <Route path="insert" element={<Insert/>}/>
           <Route path="search" element={<Search/>}/>
           <Route path="modify" element={<Modify/>}/>
+          <Route path="display" element={<Display/>}/>
         </Route>
       </Routes>
     </BrowserRouter>

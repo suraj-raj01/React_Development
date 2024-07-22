@@ -1,25 +1,39 @@
 {
   "Student": [
     {
-      "id": "1",
+      "id": 1,
       "rollno": 11,
       "name": "sdfjsl",
       "city": "Bhopal",
       "fees": 25400
     },
     {
-      "id": "2",
+      "id": 2,
       "rollno": 12,
       "name": "sdfjsl",
       "city": "Bhopal",
       "fees": 25400
     },
     {
-      "id": "3",
+      "id": 3,
       "rollno": 13,
       "name": "sdfjsl",
       "city": "Bhopal",
       "fees": 25400
+    },
+    {
+      "id": "0684",
+      "rollno": "2",
+      "name": "SURAJ KUMAR",
+      "city": "Bhopal",
+      "fees": "4"
+    },
+    {
+      "id": "1867",
+      "rollno": "2",
+      "name": "SURAJ KUMAR",
+      "city": "Bhopal",
+      "fees": "450000"
     }
   ]
 }
