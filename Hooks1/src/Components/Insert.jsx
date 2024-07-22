@@ -25,6 +25,11 @@ const Insert = () => {
                 <Form style={{ margin: ' 200px auto', width: '400px', color: 'white' }}>
                     <center><h3 style={{ padding: '0px 20px' }}>INSERT DATA</h3></center><br />
                     <Form.Group className="mb-3">
+                        <Form.Label>Enter Id</Form.Label>
+                        <Form.Control type="text" name='id' value={input.id} onChange={handleInput} />
+                    </Form.Group>
+
+                    <Form.Group className="mb-3">
                         <Form.Label>Enter rollno</Form.Label>
                         <Form.Control type="text" name='rollno' value={input.rollno} onChange={handleInput} />
                     </Form.Group>

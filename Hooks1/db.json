@@ -1,38 +1,52 @@
 {
   "Student": [
     {
-      "id": 1,
-      "rollno": 11,
-      "name": "sdfjsl",
+      "id": "1",
+      "rollno": "1",
+      "name": "RAHUL KUMAR",
       "city": "Bhopal",
-      "fees": 25400
+      "fees": "450000"
     },
     {
-      "id": 2,
-      "rollno": 12,
-      "name": "sdfjsl",
-      "city": "Bhopal",
-      "fees": 25400
-    },
-    {
-      "id": 3,
-      "rollno": 13,
-      "name": "sdfjsl",
-      "city": "Bhopal",
-      "fees": 25400
-    },
-    {
-      "id": "0684",
+      "id": "2",
       "rollno": "2",
       "name": "SURAJ KUMAR",
-      "city": "Bhopal",
-      "fees": "4"
+      "city": "BHOPAL",
+      "fees": "550000"
     },
     {
-      "id": "1867",
-      "rollno": "2",
-      "name": "SURAJ KUMAR",
-      "city": "Bhopal",
+      "id": "3",
+      "rollno": "3",
+      "name": "RAJAN KUMAR",
+      "city": "BIHAR",
+      "fees": "500000"
+    },
+    {
+      "id": "4",
+      "rollno": "4",
+      "name": "HARIOM KUMAR",
+      "city": "BIHAR",
+      "fees": "350000"
+    },
+    {
+      "id": "5",
+      "rollno": "5",
+      "name": "VIVEK KUMAR",
+      "city": "BHOPAL",
+      "fees": "300000"
+    },
+    {
+      "id": "6",
+      "rollno": "6",
+      "name": "ANKIT KUMAR",
+      "city": "BIHAR",
+      "fees": "40000"
+    },
+    {
+      "id": "7",
+      "rollno": "7",
+      "name": "PANKAJ KUMAR",
+      "city": "BHOPAL",
       "fees": "450000"
     }
   ]

@@ -18,6 +18,7 @@ const Display = () =>{
         return(
             <>
             <tr>
+                <td>{key.id}</td>
                 <td>{key.rollno}</td>
                 <td>{key.name}</td>
                 <td>{key.city}</td>
@@ -33,6 +34,7 @@ const Display = () =>{
         <Table striped bordered hover>
       <thead>
         <tr>
+          <th>Id</th>
           <th>Rollno</th>
           <th>Name</th>
           <th>City</th>
