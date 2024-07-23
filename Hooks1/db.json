@@ -48,6 +48,41 @@
       "name": "PANKAJ KUMAR",
       "city": "BHOPAL",
       "fees": "450000"
+    },
+    {
+      "id": "8",
+      "rollno": "8",
+      "name": "SHIVAM RAWAT",
+      "city": "BHOPAL",
+      "fees": "650000"
+    },
+    {
+      "id": "9",
+      "rollno": "9",
+      "name": "PAWAN KUMAR",
+      "city": "BIHAR",
+      "fees": "300000"
+    },
+    {
+      "id": "10",
+      "rollno": "10",
+      "name": "DEEPAK PATEL",
+      "city": "UP",
+      "fees": "450000"
+    },
+    {
+      "id": "11",
+      "rollno": "11",
+      "name": "MANISH KUMAR",
+      "city": "BIHAR",
+      "fees": "500000"
+    },
+    {
+      "id": "11",
+      "rollno": "11",
+      "name": "MANISH KUMAR",
+      "city": "BIHAR",
+      "fees": "500000"
     }
   ]
 }

@@ -19,9 +19,9 @@ const Layout = () => {
                     </Nav>
                 </Container>
             </Navbar>
-            <Container>
+            <Container >
                 <hr />
-                <div style={{ height: '75vh', width: '100%' }}>
+                <div id='layout' style={{ height: '75vh', width: '100%',boxShadow:'0px 0px 5px',borderRadius:'10px' }}>
                     <Outlet />
                 </div>
                 <hr />

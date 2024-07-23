@@ -29,9 +29,9 @@ const Display = () =>{
     })
     return(
         <>
-        <div style={{backgroundColor:'black',width:'100%',height:'100%',textAlign:'center',color:'white'}}>
-        <h2>DISPLAY DATA</h2>
-        <Table striped bordered hover>
+        <div style={{backgroundColor:'',width:'100%',height:'100%',textAlign:'center',color:'black',borderRadius:'10px',padding:'15px 20px'}}>
+        <h2 style={{position:'sticky',top:'15px',backgroundColor:'white'}}>DISPLAY DATA</h2>
+        <Table striped bordered hover id='table'>
       <thead>
         <tr>
           <th>Id</th>

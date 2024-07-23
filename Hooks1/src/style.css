@@ -1,0 +1,19 @@
+#form input{
+    box-shadow: 0px 0px 2px;
+}
+#form input::placeholder{
+    color: black;
+}
+#table{
+    overflow-y: scroll;
+}
+#table th{
+    background-color: orangered;
+}
+#table td{
+    background-color: darkslategray;
+    color:white;
+}
+#layout{
+    overflow-y: scroll;
+}
