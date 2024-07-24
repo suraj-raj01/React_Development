@@ -1,13 +1,6 @@
 {
   "Student": [
     {
-      "id": "1",
-      "rollno": "1",
-      "name": "RAHUL KUMAR",
-      "city": "Bhopal",
-      "fees": "450000"
-    },
-    {
       "id": "2",
       "rollno": "2",
       "name": "SURAJ KUMAR",
@@ -36,29 +29,8 @@
       "fees": "300000"
     },
     {
-      "id": "10",
-      "rollno": "10",
-      "name": "DEEPAK PATEL",
-      "city": "UP",
-      "fees": "450000"
-    },
-    {
-      "id": "11",
-      "rollno": "11",
-      "name": "MANISH KUMAR",
-      "city": "BIHAR",
-      "fees": "500000"
-    },
-    {
-      "id": "11",
-      "rollno": "11",
-      "name": "MANISH KUMAR",
-      "city": "BIHAR",
-      "fees": "500000"
-    },
-    {
-      "id": "11",
-      "rollno": "11",
+      "id": "6",
+      "rollno": "6",
       "name": "MANISH KUMAR",
       "city": "BIHAR",
       "fees": "500000"

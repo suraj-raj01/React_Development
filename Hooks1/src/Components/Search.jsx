@@ -35,9 +35,9 @@ const Search = () =>{
                 <thead>
                 <tr>
                     <th>Rollno</th>
-                    <th>name</th>
-                    <th>city</th>
-                    <th>fees</th>
+                    <th>Name</th>
+                    <th>City</th>
+                    <th>Fees</th>
                 </tr>
                 </thead>
                 <tbody>

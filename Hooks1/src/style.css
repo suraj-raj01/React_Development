@@ -19,8 +19,8 @@
     background-color: skyblue;
 }
 #table td{
-    background-color: darkslategray;
-    color:white;
+    background-color: white;
+    color:black;
 }
 #search{
     padding: 6px;

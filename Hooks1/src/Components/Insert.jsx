@@ -21,7 +21,7 @@ const Insert = () => {
     }
     return (
         <>
-            <Container style={{ height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', backgroundColor: '',borderRadius:'10px' }}>
+            <Container style={{ height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center',backgroundColor:'white',borderRadius:'10px' }}>
                 <Form id='form' style={{ margin: ' 200px auto', width: '400px', color: 'black'}}>
                     <center><h3 style={{ padding: '0px 20px' }}>INSERT DATA</h3></center><br />
                     <Form.Group className="mb-3">

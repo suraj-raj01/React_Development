@@ -1,7 +1,7 @@
 import axios from "axios";
 import Table from 'react-bootstrap/Table';
 import { useEffect,useState } from "react";
-const Display = () =>{
+const Update = () =>{
 
     const [myData,setMydata] = useState([]);
     const loadData = () =>{
@@ -14,6 +14,23 @@ const Display = () =>{
     useEffect(()=>{
         loadData();
     },[])
+// myDel method is used to delete data
+    const myDel = (myid) =>{
+        let url = `http://localhost:3000/Student/${myid}`;
+        axios.delete(url).then((res)=>{
+            alert("data deleted!!!")
+            loadData();
+        })
+    }
+    const Myedit = (myid) =>{
+        let url = `http://localhost:3000/Student/${myid}`;
+        axios.put(url).then((res)=>{
+            console.log(res.data);
+            alert("data edited!!");
+            loadData();
+        })
+    }
+
     const ans = myData.map((key)=>{
         return(
             <>
@@ -23,6 +40,14 @@ const Display = () =>{
                 <td>{key.name}</td>
                 <td>{key.city}</td>
                 <td>{key.fees}</td>
+                <td>
+                <a href="#">
+                <img src="/Images/edit.jpeg" width="20" height="20" onClick={()=>{Myedit(key.id)}}/>
+            </a>&nbsp;&nbsp;&nbsp;
+            <a href="#">
+                <img src="/Images/delete.jpeg" width="25" height="25" onClick={()=>{myDel(key.id)}}/>
+            </a>
+                </td>
             </tr>
             </>
         )
@@ -31,7 +56,7 @@ const Display = () =>{
     return(
         <>
         <div style={{backgroundColor:'',width:'100%',height:'100%',textAlign:'center',color:'black',borderRadius:'10px',padding:'15px 20px'}}>
-        <h2 style={{position:'sticky',top:'15px',backgroundColor:'white'}}>DISPLAY DATA</h2>
+        <h2 style={{position:'sticky',top:'15px',backgroundColor:'white'}}>UPDATE DATA</h2>
         <Table striped bordered hover id='table'>
       <thead>
         <tr>
@@ -40,6 +65,7 @@ const Display = () =>{
           <th>Name</th>
           <th>City</th>
           <th>Fees</th>
+          <th>Update</th>
         </tr>
       </thead>
       <tbody>
@@ -50,4 +76,4 @@ const Display = () =>{
         </>
     )
 }
-export default Display;
+export default Update;
