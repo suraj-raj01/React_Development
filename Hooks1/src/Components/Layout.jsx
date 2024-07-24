@@ -7,8 +7,9 @@ import Col from 'react-bootstrap/Col';
 const Layout = () => {
     return (
         <>
+            <Container>
             <Navbar id="navbar">
-                <Container style={{fontWeight:'bold'}}>
+                <Container style={{fontWeight:'600'}}>
                     <Navbar.Brand as={Link} to="home">Portfolio</Navbar.Brand>
                     <Nav className="me-auto">
                         <Nav.Link as={Link} to="home">Home</Nav.Link>
@@ -19,9 +20,10 @@ const Layout = () => {
                     </Nav>
                 </Container>
             </Navbar>
+            </Container>
             <Container >
                 <hr />
-                <div id='layout' style={{ height: '75vh', width: '100%',boxShadow:'0px 0px 5px',borderRadius:'10px' }}>
+                <div id='layout' style={{ height: '75vh', width: '100%',boxShadow:'0px 0px 5px orangered',borderRadius:'10px' }}>
                     <Outlet />
                 </div>
                 <hr />

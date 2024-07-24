@@ -23,12 +23,12 @@ const Search = () =>{
         )
     })
     return(
-        <div style={{backgroundColor:'',width:'100%',height:'100%',textAlign:'center',color:'black',borderRadius:'10px'}}>
-        <h1>SEARCH DATA</h1><br/>
-        <input type='text' placeholder='enter rollno...' value={rollno} onChange={(e)=>{
+        <div style={{backgroundColor:'',width:'100%',height:'100%',textAlign:'center',color:'black',borderRadius:'10px',padding:'15px 20px'}}>
+        <h2>SEARCH DATA</h2><br/>
+        <input id="search" type='text' placeholder='enter rollno...' value={rollno} onChange={(e)=>{
             setRollno(e.target.value)
         }}/>
-            <button onClick={mySearch}>click</button><br/>
+            <button id="search-btn" onClick={mySearch}>Search</button><br/>
             <hr/>
 
             <Table striped bordered hover id='table'>

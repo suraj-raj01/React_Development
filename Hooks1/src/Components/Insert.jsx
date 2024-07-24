@@ -15,7 +15,7 @@ const Insert = () => {
         e.preventDefault();
         let api = "http://localhost:3000/Student";
         axios.post(api, input).then((res) => {
-            console.log(res);
+            console.log(res.data);
             alert("data saved!!!")
         })
     }
