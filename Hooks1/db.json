@@ -11,36 +11,36 @@
       "id": "2",
       "rollno": "2",
       "name": "RAJAN KUMAR",
-      "fees": "450000",
+      "fees": "400000",
       "city": "INDORE"
     },
     {
       "id": "3",
       "name": "SUDHIR KUMAR",
       "city": "BIHAR",
-      "fees": "400000",
+      "fees": "450000",
       "rollno": "3"
     },
     {
       "id": "4",
       "rollno": "4",
       "name": "PANKAJ KUMAR",
-      "city": "DELHI",
-      "fees": "650000"
+      "city": "GUJRAT",
+      "fees": "650000",
+      "": "",
+      "DELH": "DELH",
+      "DELHI8": "DELHI8",
+      "DELHI4": "DELHI4",
+      "DELHI5": "DELHI5"
     },
     {
+      "36000": "36000",
+      "3600005": "3600005",
       "id": "5",
       "rollno": "5",
       "name": "PAWAN KUMAR",
       "city": "DELHI",
-      "fees": "360000"
-    },
-    {
-      "id": "6",
-      "rollno": "6",
-      "name": "SHIVAM RAWAT",
-      "city": "INDORE",
-      "fees": "360000"
+      "fees": "300000"
     }
   ]
 }

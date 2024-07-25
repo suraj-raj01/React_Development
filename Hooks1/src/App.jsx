@@ -6,10 +6,11 @@ import Search from "./Components/Search";
 import Container from "react-bootstrap/esm/Container";
 import Display from "./Components/Display";
 import Update from "./Components/Update";
+import EditData from "./Components/EditData.jsx";
 const App = () =>{
   return(
     <>
-    <Container>
+      <Container>
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout/>}>
@@ -19,11 +20,11 @@ const App = () =>{
           <Route path="search" element={<Search/>}/>
           <Route path="update" element={<Update/>}/>
           <Route path="display" element={<Display/>}/>
+          <Route path="myedit/:id" element={<EditData/>}/>
         </Route>
       </Routes>
     </BrowserRouter>
-    </Container>
-
+      </Container>
     </>
   )
 }

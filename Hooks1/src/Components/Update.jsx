@@ -1,8 +1,9 @@
 import axios from "axios";
 import Table from 'react-bootstrap/Table';
 import { useEffect,useState } from "react";
+import { useNavigate } from "react-router-dom";
 const Update = () =>{
-
+    const myNav= useNavigate();
     const [myData,setMydata] = useState([]);
     const loadData = () =>{
         let url = "http://localhost:3000/Student";
@@ -18,17 +19,13 @@ const Update = () =>{
     const myDel = (myid) =>{
         let url = `http://localhost:3000/Student/${myid}`;
         axios.delete(url).then((res)=>{
+            console.log(res.data)
             alert("data deleted!!!")
             loadData();
         })
     }
-    const Myedit = (myid) =>{
-        let url = `http://localhost:3000/Student/${myid}`;
-        axios.put(url).then((res)=>{
-            console.log(res.data);
-            alert("data edited!!");
-            loadData();
-        })
+    const myEdit=(myid)=>{
+        myNav(`/myedit/${myid}`)    // /myedit/101
     }
 
     const ans = myData.map((key)=>{
@@ -42,7 +39,7 @@ const Update = () =>{
                 <td>{key.fees}</td>
                 <td>
                 <a href="#">
-                <img src="/Images/edit.png" width="22" height="22" onClick={()=>{Myedit(key.id)}}/>
+                <img src="/Images/edit.png" width="22" height="22" onClick={()=>{myEdit(key.id)}}/>
             </a>&nbsp;&nbsp;&nbsp;
             <a href="#">
                 <img src="/Images/delete.png" width="25" height="25" onClick={()=>{myDel(key.id)}}/>

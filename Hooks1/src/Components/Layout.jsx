@@ -6,15 +6,11 @@ import Form from 'react-bootstrap/Form';
 import Navbar from 'react-bootstrap/Navbar';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-function mode()
-{
 
-}
 const Layout = () => {
 
     return (
         <>
-            <Container>
             <Navbar id="navbar">
                 <Container style={{fontWeight:'500'}}>
                     <Navbar.Brand as={Link} to="home" style={{fontSize:'25px'}}>Database</Navbar.Brand>
@@ -37,16 +33,13 @@ const Layout = () => {
                     </Form>
                 </Container>
             </Navbar>
-            </Container>
             <br/>
-            <Container >
                 <div id='layout' style={{height: '75vh', width: '100%',border:'1px solid skyblue',borderRadius:'10px' }}>
                     <Outlet />
                 </div>
                 {/*<hr />*/}
-            </Container>
 
-            <Container style={{ display: 'flex', alignItems: 'center', justifyContent: 'center',textAlign:'center' }}>
+            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center',textAlign:'center' }}>
 
                 <Row>
                     <Col ></Col>
@@ -55,7 +48,7 @@ const Layout = () => {
                         </p></Col>
                     <Col></Col>
                 </Row>
-            </Container>
+            </div>
         </>
     )
 }
