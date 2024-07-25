@@ -1,39 +1,46 @@
 {
   "Student": [
     {
+      "id": "1",
+      "city": "INDORE",
+      "name": "SURAJ KUMAR",
+      "fees": "40000",
+      "rollno": "1"
+    },
+    {
       "id": "2",
       "rollno": "2",
-      "name": "SURAJ KUMAR",
-      "city": "BHOPAL",
-      "fees": "550000"
+      "name": "RAJAN KUMAR",
+      "fees": "450000",
+      "city": "INDORE"
     },
     {
       "id": "3",
-      "rollno": "3",
-      "name": "RAJAN KUMAR",
+      "name": "SUDHIR KUMAR",
       "city": "BIHAR",
-      "fees": "500000"
+      "fees": "400000",
+      "rollno": "3"
     },
     {
       "id": "4",
       "rollno": "4",
-      "name": "HARIOM KUMAR",
-      "city": "BIHAR",
-      "fees": "350000"
+      "name": "PANKAJ KUMAR",
+      "city": "DELHI",
+      "fees": "650000"
     },
     {
       "id": "5",
       "rollno": "5",
-      "name": "VIVEK KUMAR",
-      "city": "BHOPAL",
-      "fees": "300000"
+      "name": "PAWAN KUMAR",
+      "city": "DELHI",
+      "fees": "360000"
     },
     {
       "id": "6",
       "rollno": "6",
-      "name": "MANISH KUMAR",
-      "city": "BIHAR",
-      "fees": "500000"
+      "name": "SHIVAM RAWAT",
+      "city": "INDORE",
+      "fees": "360000"
     }
   ]
 }

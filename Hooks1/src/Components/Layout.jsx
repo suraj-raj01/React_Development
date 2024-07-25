@@ -6,7 +6,10 @@ import Form from 'react-bootstrap/Form';
 import Navbar from 'react-bootstrap/Navbar';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+function mode()
+{
 
+}
 const Layout = () => {
 
     return (
@@ -23,7 +26,7 @@ const Layout = () => {
                         <Nav.Link as={Link} to="display">Display</Nav.Link>
                     </Nav>
                     <Form className="d-flex">
-                        <Button id='btn' ><img src="https://cdn1.iconfinder.com/data/icons/youtube-23/30/Subtract-4-512.png" height='30' width='30'/></Button> &nbsp;&nbsp;
+                        <Button id='btn'><img src="https://cdn1.iconfinder.com/data/icons/youtube-23/30/Subtract-4-512.png" height='25' width='25'/></Button> &nbsp;&nbsp;&nbsp;
                         <Form.Control
                             type="search"
                             placeholder="Search"

@@ -42,10 +42,10 @@ const Update = () =>{
                 <td>{key.fees}</td>
                 <td>
                 <a href="#">
-                <img src="/Images/edit.jpeg" width="20" height="20" onClick={()=>{Myedit(key.id)}}/>
+                <img src="/Images/edit.png" width="22" height="22" onClick={()=>{Myedit(key.id)}}/>
             </a>&nbsp;&nbsp;&nbsp;
             <a href="#">
-                <img src="/Images/delete.jpeg" width="25" height="25" onClick={()=>{myDel(key.id)}}/>
+                <img src="/Images/delete.png" width="25" height="25" onClick={()=>{myDel(key.id)}}/>
             </a>
                 </td>
             </tr>
