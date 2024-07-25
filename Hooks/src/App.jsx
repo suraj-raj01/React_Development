@@ -16,9 +16,9 @@
 //       <div style={{ backgroundColor: 'deepskyblue', margin: "auto", height: '47vh', width: '90%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
 //         <div><h1>{count}</h1></div>
 //         <div>
-//           <button style={{ padding: '10px 20px', backgroundColor: 'green', border: 'none', color: 'white', borderRadius: '5px' }} onClick={() => setCount((count) => count + 1)}>Increament</button>&nbsp;&nbsp;
-//           <button style={{ padding: '10px 20px', backgroundColor: 'green', border: 'none', color: 'white', borderRadius: '5px' }} onClick={myDec}>Decreament</button>&nbsp;&nbsp;
-//           <button style={{ padding: '10px 20px', backgroundColor: 'green', border: 'none', color: 'white', borderRadius: '5px' }} onClick={() => setCount((count) => count * 0)}>Reset</button>
+//           <button onClick={() => setCount((count) => count + 1)}>Increament</button>&nbsp;&nbsp;
+//           <button onClick={myDec}>Decreament</button>&nbsp;&nbsp;
+//           <button onClick={() => setCount((count) => count * 0)}>Reset</button>
 //         </div>
 //       </div><hr width="90%" />
 //       <div style={{ backgroundColor: color, margin: "auto", height: '48vh', width: '90%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>

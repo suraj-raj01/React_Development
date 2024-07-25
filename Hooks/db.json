@@ -20,6 +20,13 @@
       "name": "sdfjsl",
       "city": "Bhopal",
       "fees": 25400
+    },
+    {
+      "id": "0136",
+      "rollno": "4",
+      "name": "RAHUL KUMAR",
+      "city": "Bhopal",
+      "fees": "45000"
     }
   ]
 }
