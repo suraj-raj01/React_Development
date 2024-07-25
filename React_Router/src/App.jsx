@@ -3,7 +3,7 @@
 // import Home from "./Components/Home";
 // import About from "./Components/About";
 // import Contact from "./Components/Contact";
-
+//
 // import { useState } from "react";
 
 // function display(){
@@ -15,7 +15,7 @@
 // const myName=(nm,e)=>{
 //   alert("My name is: "+nm + " Type : "+e.type)
 // }
-
+//
 // const myDisplay = (e) =>{
 //   alert("Welcome \nName : "+e.target.name+"\nValue : "+e.target.value+"\nType: "+e.target.type);
 // }
@@ -24,9 +24,9 @@
 //   let val = e.target.value;
 //   alert("Name : "+name+" \nValue : "+val);
 // }
-
+//
 // const App = () => {
-
+//
 //   return (
 //     <>
 //       {/* <BrowserRouter>
