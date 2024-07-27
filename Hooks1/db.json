@@ -2,45 +2,17 @@
   "Student": [
     {
       "id": "1",
-      "city": "INDORE",
+      "rollno": "6",
       "name": "SURAJ KUMAR",
-      "fees": "40000",
-      "rollno": "1"
+      "city": "BIHAR",
+      "fees": "400000"
     },
     {
       "id": "2",
-      "rollno": "2",
+      "rollno": "10",
       "name": "RAJAN KUMAR",
-      "fees": "400000",
-      "city": "INDORE"
-    },
-    {
-      "id": "3",
-      "name": "SUDHIR KUMAR",
       "city": "BIHAR",
-      "fees": "450000",
-      "rollno": "3"
-    },
-    {
-      "id": "4",
-      "rollno": "4",
-      "name": "PANKAJ KUMAR",
-      "city": "GUJRAT",
-      "fees": "650000",
-      "": "",
-      "DELH": "DELH",
-      "DELHI8": "DELHI8",
-      "DELHI4": "DELHI4",
-      "DELHI5": "DELHI5"
-    },
-    {
-      "36000": "36000",
-      "3600005": "3600005",
-      "id": "5",
-      "rollno": "5",
-      "name": "PAWAN KUMAR",
-      "city": "DELHI",
-      "fees": "300000"
+      "fees": "400000"
     }
   ]
 }
