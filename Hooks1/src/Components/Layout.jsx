@@ -8,12 +8,13 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 const Layout = () => {
+   
     return (
         <>
             <div>
                 <Navbar expand="lg" id='navbar'>
                     <Container fluid>
-                        <Navbar.Brand as={Link} to="layout" style={{fontWeight:'bold'}}>Database</Navbar.Brand>
+                        <Navbar.Brand as={Link} to="home" style={{ fontWeight: 'bold' }}>Database</Navbar.Brand>
                         <Navbar.Toggle aria-controls="navbarScroll" />
                         <Navbar.Collapse id="navbarScroll">
                             <Nav
@@ -30,33 +31,31 @@ const Layout = () => {
 
                             <Form className="d-flex">
                                 <Form.Control
-                                    type="search"
-                                    placeholder="Search"
                                     className="me-2"
                                     aria-label="Search"
+                                    placeholder="Search"
+                                    type="search"
                                 />
                                 <Button variant="outline-success">Search</Button>
                             </Form>
                         </Navbar.Collapse>
                     </Container>
                 </Navbar>
-                <br/>
-                <div id='layout' style={{height: '75vh', width: '100%',border:'1px solid skyblue',borderRadius:'10px' }}>
+                <br />
+                <div id='layout' style={{ height: '75vh', width: '100%', border: '1px solid skyblue', borderRadius: '10px' }} >
                     <Outlet />
                 </div>
                 {/*<hr />*/}
 
-                <div style={{fontWeight:'500', display: 'flex', alignItems: 'center', justifyContent: 'center',textAlign:'center' }}>
-
+                <div style={{ fontWeight: '500', display: 'flex', alignItems: 'center', justifyContent: 'center', textAlign: 'center' }}>
                     <Row>
                         <Col ></Col>
                         <Col xs={12}>
-                            <p>STUDENT MANAGEMENT SYSTEM <br/>Everythig is reserved by Copyright ©studentmanagementsystem.com
+                            <p>COLLEGE MANAGEMENT SYSTEM <br />Everythig is reserved by Copyright ©collegemanagementsystem.com
                             </p></Col>
                         <Col></Col>
                     </Row>
                 </div>
-
             </div>
         </>
     )
