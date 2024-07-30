@@ -11,7 +11,7 @@ const Home = () => {
     return (
         <>
             <div style={{ backgroundColor: '', width: '100%', height: '100%', textAlign: 'center', color: 'black', borderRadius: '10px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                <h1>COLLEGE MANAGEMENT SYSTEM</h1>
+                <h1>DASHBOARD</h1>
                 <button id="jump-btn1" onClick={jump1}>⟪</button>
                 <button id="jump-btn2" onClick={jump2}>⟫</button>
             </div>

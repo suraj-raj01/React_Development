@@ -14,7 +14,7 @@ const Layout = () => {
             <div>
                 <Navbar expand="lg" id='navbar'>
                     <Container fluid>
-                        <Navbar.Brand as={Link} to="home" style={{ fontWeight: 'bold' }}>Database</Navbar.Brand>
+                        <Navbar.Brand as={Link} to="home" style={{ fontWeight: 'bold' }}>Dashboard</Navbar.Brand>
                         <Navbar.Toggle aria-controls="navbarScroll" />
                         <Navbar.Collapse id="navbarScroll">
                             <Nav
@@ -51,7 +51,7 @@ const Layout = () => {
                     <Row>
                         <Col ></Col>
                         <Col xs={12}>
-                            <p>COLLEGE MANAGEMENT SYSTEM <br />Everythig is reserved by Copyright ©collegemanagementsystem.com
+                            <p>DASHBOARD <br />Everythig is reserved by Copyright ©mydashboard.com
                             </p></Col>
                         <Col></Col>
                     </Row>
