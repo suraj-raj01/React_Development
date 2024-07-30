@@ -7,7 +7,7 @@ import Col from 'react-bootstrap/Col';
 const Layout = () => {
     return (
         <>
-            <Container style={{marginTop:'4px'}}>
+
                 <Navbar  id="navbar">
                     <Container>
                         <Navbar.Brand as={Link} to="home">Portfolio</Navbar.Brand>
@@ -19,14 +19,14 @@ const Layout = () => {
                         </Nav>
                     </Container>
                 </Navbar>
-            </Container>
-            <Container>
+
+
                 <hr />
                 <div style={{ height: '75vh', width: '100%' }}>
                     <Outlet />
                 </div>
                 <hr />
-            </Container>
+
 
             <Container style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                 

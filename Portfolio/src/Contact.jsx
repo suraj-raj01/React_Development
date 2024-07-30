@@ -7,7 +7,7 @@ import { Link,Outlet } from 'react-router-dom';
 const Contact = () => {
   return (
     <>
-      <Container id='contact'>
+      <div id='contact'>
         <br /><br />
         <Row>
           <Col xs={4}>
@@ -49,7 +49,7 @@ const Contact = () => {
             </div>
           </Col>
         </Row>
-      </Container>
+      </div>
     </>
   )
 }

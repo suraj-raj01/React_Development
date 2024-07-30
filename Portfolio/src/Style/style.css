@@ -33,6 +33,8 @@
 #contact{
     background-color: darkslategrey;
     height: 75vh;
+    width: 100%;
+    padding: 0px 100px;
 }
 #content{
     display: flex;

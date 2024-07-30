@@ -11,7 +11,6 @@ import AboutCompany from "./AboutCompany";
 const App = () =>{
   return(
     <>
-    <Container>
     <BrowserRouter>
     <Routes>
       <Route path="/" element={<Layout/>}>
@@ -27,7 +26,6 @@ const App = () =>{
       </Route>
     </Routes>
     </BrowserRouter>
-    </Container>
     </>
   )
 }
