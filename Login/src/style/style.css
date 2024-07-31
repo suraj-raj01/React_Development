@@ -1,0 +1,9 @@
+#btn{
+    padding: 10px 20px;
+    font-weight: bold;
+    border: none;
+    background-color: teal;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px teal;
+}

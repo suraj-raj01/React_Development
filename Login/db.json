@@ -1,0 +1,46 @@
+{
+  "customer": [
+    {
+      "id": "1",
+      "name": "suraj",
+      "email": "suraj123@gmail.com",
+      "userid": "suraj123",
+      "password": "suraj@123"
+    },
+    {
+      "id": "0975",
+      "name": "SURAJKUMAR",
+      "email": "surajkumarbgu83@gmail.com",
+      "userid": "sruaj123",
+      "password": "suraj123"
+    },
+    {
+      "id": "8801",
+      "name": "rajan",
+      "email": "rajan@gmail.com",
+      "userid": "raja123",
+      "password": "raja123"
+    },
+    {
+      "id": "3a87",
+      "name": "lsfjasdjksa",
+      "email": "kdsfaskd@gmail.com",
+      "userid": "sljfsd123",
+      "password": "sdfjk123"
+    },
+    {
+      "id": "baf3",
+      "name": "surajarya",
+      "email": "surajkfj@gmail.com",
+      "userid": "suraj24",
+      "password": "suraj4562"
+    },
+    {
+      "id": "00c7",
+      "name": "adsfasd",
+      "email": "surajkumarbgu83@gmail.com",
+      "userid": "sdfsd123",
+      "password": "1254sdfs2"
+    }
+  ]
+}
