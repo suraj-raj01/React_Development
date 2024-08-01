@@ -11,7 +11,7 @@ const Layout = () =>{
                 flexDirection:'column',
                 alignItems:'center',
                 justifyContent:'center',
-                backgroundColor:'darkgrey',
+                backgroundColor:'teal',
                 color:'white'
             }
         }>
@@ -41,7 +41,7 @@ const Layout = () =>{
                 flexDirection:'column',
                 alignItems:'center',
                 justifyContent:'center',
-                backgroundColor:'darkgrey',
+                backgroundColor:'teal',
                 color:'white'
             }
         }>

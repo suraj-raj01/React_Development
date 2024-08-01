@@ -112,7 +112,7 @@ const LoginBtn = () => {
                 <Modal.Body>
                     <Form>
                         <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-                            <Form.Label>Enter UserID</Form.Label>
+                            <Form.Label>Enter Userid</Form.Label>
                             <Form.Control
                                 type="text" name="userid" value={userid} onChange={(e) => { setUserid(e.target.value) }}
                             />
