@@ -1,12 +1,12 @@
 import { useContext } from "react";
 import { userContext } from "./App";
-const Comp5 = () =>{
+const Comp5 = () => {
     // const {user} = useContext(userContext);
-    const {course,setCourse} = useContext(userContext);
-    return(
+    const { course, setCourse } = useContext(userContext);
+    return (
         <>
-        <h1>Comp 5 {course}</h1>
-        <button onClick={()=>{setCourse("java")}}>click here</button>
+            <h1>Comp 5 {course}</h1>
+            <button onClick={() => { setCourse("Fullstack Developer") }}>click here</button>
         </>
     )
 }

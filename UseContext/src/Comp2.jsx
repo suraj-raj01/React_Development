@@ -1,9 +1,9 @@
 import Comp3 from "./Comp3";
-const Comp2 = () =>{
-    return(
+const Comp2 = () => {
+    return (
         <>
-        <h1>Comp2 </h1>
-        <Comp3/>
+            <h1>Comp2 </h1>
+            <Comp3 />
         </>
     )
 }
