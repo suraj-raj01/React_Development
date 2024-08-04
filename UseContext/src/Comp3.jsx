@@ -1,9 +1,11 @@
-import Comp4 from "./Comp4";
-const Comp3 = () => {
-    return (
+import { useContext } from "react";
+import { userContext } from "./App";
+const Comp3 = () =>{
+    const{msg,setMsg} = useContext(userContext);
+    return(
         <>
-            <h1>Comp3</h1>
-            <Comp4 />
+        <h1>Message : {msg}</h1>
+        <button onClick={()=>{setMsg("Java Fullstack")}}>Click Here</button>
         </>
     )
 }

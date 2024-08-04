@@ -1,16 +1,15 @@
-import { useState ,createContext} from "react";
 import Comp1 from "./Comp1";
+import { useState,createContext } from "react";
 const userContext = createContext();
-const App = () => {
-  // const [user, setUser] = useState("SURAJ")
-  const [course, setCourse] = useState("Backend Developer")
-  return (
+const App = () =>{
+const [msg,setMsg] = useState("Frontend Developer");
+  return(
     <>
-      <h1>App : {course}</h1>
-      <button onClick={()=>{setCourse("Frontend Developer")}}>click here</button>
-      <userContext.Provider value={{course,setCourse}}>
-        <Comp1/>
-      </userContext.Provider>
+    <h1>Message : {msg}</h1>
+    <button onClick={()=>{setMsg("Backend Developer")}}>Click Here</button>
+    <userContext.Provider value={{msg,setMsg}}>
+      <Comp1/>
+    </userContext.Provider>
     </>
   )
 }
