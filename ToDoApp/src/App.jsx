@@ -28,6 +28,13 @@ const App = () =>{
     <button onClick={()=>{dispatch(addTask({id:Date.now(), work:mytsk}))}}>Add Task</button>
     <br /><br /><br />
 
+    <div style={
+      {
+        height:'80vh',
+        width:'100%',
+        overflowY:'scroll'
+      }
+    }>
     <Table striped bordered hover variant="dark">
       <thead>
       <tr>
@@ -37,6 +44,7 @@ const App = () =>{
       {ans}
       </thead>
       </Table>
+    </div>
     </Container>
     </>
   )

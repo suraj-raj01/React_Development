@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 const todoSlice = createSlice({
-    name:"todo",
+    name:"TODO",
     initialState:{
         task:[]
     },
