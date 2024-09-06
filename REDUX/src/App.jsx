@@ -9,7 +9,7 @@ const App = () => {
     <>
       <h1>Welcome to Toolkit Example</h1>
       {/* <input type="text" value={val}  onChange={(e)=>{setVal(e.target.value)}}/> */}
-      <button onClick={() => { dispatch(changeColor("black")) }}>Change Color</button>
+      <button onClick={() => { dispatch(changeColor()) }}>Change Color</button>
       <br />
       <br />
       <div style={
