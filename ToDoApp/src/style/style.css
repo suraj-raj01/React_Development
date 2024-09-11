@@ -1,0 +1,16 @@
+button{
+    padding: 7px 15px;
+    background-color: green;
+    border: none;
+    box-shadow: 0px 0px 1px;
+    font-weight: bold;
+    color: white;
+}
+input{
+    padding: 6px 10px;
+    border: none;
+    box-shadow: 0px 0px 2px green;
+}
+tr th,td{
+    text-align: center;
+}
